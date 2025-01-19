@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VoyageurMainWindow</class>
+ <widget class="QMainWindow" name="VoyageurMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 blue, stop:1 red);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="tel_input">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Tel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_btn">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>450</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 170, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Add </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Nom_input">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Nom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>228</x>
+      <y>0</y>
+      <width>191</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>23</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:  white;
+background-color: none;</string>
+    </property>
+    <property name="text">
+     <string>voyageur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Search_btn">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>450</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(43, 57, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Search </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Numero_input">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>91</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color: rgb(168, 168, 168);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Numero</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="prenom_input">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>prenom</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete_btn">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>450</y>
+      <width>170</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>19</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Delete </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Passeport_input">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Passeport</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Adresse_input">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>270</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Adresse</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Email_input">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numVol_input">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>360</y>
+      <width>261</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid rgba(0,0,0,0);
+border-bottom-color: white;
+padding-bottom:7px;
+color: rgb(255, 255, 255);
+background-color:rgb(168, 168, 168)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>N vol</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>590</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
